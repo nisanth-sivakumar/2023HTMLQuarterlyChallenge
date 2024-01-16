@@ -23,6 +23,14 @@ nav button {
     border-radius: 10px;
 }
 
+#title {
+    margin-top: -1%;
+    margin-right: 45%; 
+    padding: 1%; 
+    text-align: left;
+    color: #426b1f;
+}
+
 li {
     display: inline;
 }
@@ -43,4 +51,116 @@ nav button:not(#lessons):hover {
 
 #mainpagedivs div {
     height: 500px;
+}
+
+#sloganText {
+    margin-top: 5%;
+    margin-bottom: 1%;
+    color: #000;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Newsreader;
+    font-size: 64px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 120%;
+    letter-spacing: 4px;
+    text-align: center;
+}   
+
+#landingButton {
+    color: white;
+    background-color: #426b1f;
+    padding-left: 30px;
+    padding-right: 30px;
+    border: none;
+    width: 150px;
+    height: 40px;
+    font-weight: 800;
+    border-radius: 10px; 
+    margin: 3%;
+}
+
+#landingButton:hover {
+    background-color: #39591d;
+}
+
+.learnMore {
+    text-align: center;
+}
+
+#landingImage { 
+    border-radius: 50px;
+    width: 650px;
+    height: auto;
+}
+
+.imageBox {
+    text-align: center;
+}
+
+#aboutdiv {
+    margin-top: 10%;
+}
+
+#aboutTitle {
+    text-align: center;
+    margin-top: 5%;
+    margin-bottom: 1%;
+    color: #000;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Newsreader;
+    font-size: 64px;
+    font-weight: 400;
+    line-height: 120%;
+    letter-spacing: 4px;
+}
+
+.descriptionText {
+    text-align: center;
+    margin-top: 3%;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Newsreader;
+    color: #000;
+    font-size: 18px;
+    font-weight: 200;
+    line-height: 120%;
+}
+
+#faqTitle {
+    text-align: center;
+    margin-top: 5%;
+    margin-bottom: 1%;
+    color: #000;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Newsreader;
+    font-size: 64px;
+    font-weight: 400;
+    line-height: 120%;
+    letter-spacing: 4px;
+}
+
+#whoWeAreTitle {
+    text-align: center;
+    margin-top: 5%;
+    margin-bottom: 1%;
+    color: #000;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Newsreader;
+    font-size: 64px;
+    font-weight: 400;
+    line-height: 120%;
+    letter-spacing: 4px;
+}
+
+#examplesTitle {
+    text-align: center;
+    margin-top: 5%;
+    margin-bottom: 1%;
+    color: #000;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Newsreader;
+    font-size: 64px;
+    font-weight: 400;
+    line-height: 120%;
+    letter-spacing: 4px;
 }
