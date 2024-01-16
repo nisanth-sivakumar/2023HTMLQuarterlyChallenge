@@ -20,6 +20,7 @@ nav button {
     width: 150px;
     height: 40px;
     font-weight: 800;
+    border-radius: 10px;
 }
 
 li {
@@ -28,7 +29,18 @@ li {
 
 #lessons {
     color: white;
-    background-color: #426B1F;
-    border-radius: 10%;
+    background-color: #426b1f;
+    margin-left: 30px;
 }
 
+#lessons:hover {
+    background-color: #39591d;
+}
+
+nav button:not(#lessons):hover {
+    background-color: #f1f5ed;
+}
+
+#mainpagedivs div {
+    height: 500px;
+}
