@@ -1,9 +1,3 @@
-document.getElementById("about").addEventListener("click", about);
-document.getElementById("faq").addEventListener("click", faq);
-document.getElementById("whoweare").addEventListener("click", whoweare);
-document.getElementById("examples").addEventListener("click", examples);
-document.getElementById("lessons").addEventListener("click", lessons);
-
 function about() {
   //scroll down to about on main page
   document.getElementById("aboutdiv").scrollIntoView({ behavior: "smooth" });
@@ -20,9 +14,13 @@ function whoweare() {
 }
 
 function examples() {
-  //uuuuuhhhhh
+  document.getElementById("examplesdiv").scrollIntoView({ behavior: "smooth" });
 }
 
 function lessons() {
   location.assign("lessons.html");
+}
+
+function index() {
+  location.assign("index.html");
 }

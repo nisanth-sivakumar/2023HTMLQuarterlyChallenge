@@ -4,26 +4,30 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Cybersecurity Website</title>
+    <title>KnowSecure</title>
     <link rel="stylesheet" href="style.css" />
     <script src="script.js" defer></script>
 </head>
 
 <body>
+    <div class="scrollbuttondiv">
+        <img src="uparrowicon.png" onclick='(function(){document.documentElement.scrollTop = 0;})();'
+            class="scrollButton">
+    </div>
     <nav>
         <img src="" alt="" />
         <h2 id="title">KnowSecure</h2>
-        <button id="about">About</button>
-        <button id="faq">FAQ</button>
-        <button id="whoweare">Who We Are</button>
-        <button id="examples">Examples</button>
-        <button id="lessons">Lessons</button>
+        <button id="about" onclick="about()">About</button>
+        <button id="faq" onclick="faq()">FAQ</button>
+        <button id="whoweare" onclick="whoweare()">Who We Are</button>
+        <button id="examples" onclick="examples()">Examples</button>
+        <button id="lessons" onclick="lessons()">Lessons</button>
     </nav>
     <div class="slogan">
         <h1 id="sloganText">KnowSecure: Where Knowledge Defends</h1>
     </div>
-    <div class="learnMore"> 
-        <button id="landingButton">Learn More</button>
+    <div class="learnMore">
+        <button id="landingButton" onclick="about()">Learn More</button>
     </div>
     <div class="imageBox">
         <img id="landingImage" src="e7df3e0a6157d482322274ed602b7ef3.png">
@@ -37,7 +41,7 @@
                 We believe in security. Cyber security. Cyber security like: <br>
                 Lessons: <br>
                 (Why Cyber Security is Important) <br>
-            
+
             </p>
         </div>
         <div id="faqdiv">
@@ -45,7 +49,7 @@
             <p class="descriptionText">
 
                 Add questions <br>
-            
+
             </p>
         </div>
         <div id="whowearediv">
@@ -53,7 +57,7 @@
             <p class="descriptionText">
 
                 Example text<br>
-            
+
             </p>
         </div>
         <div id="examplesdiv">
@@ -61,7 +65,7 @@
             <p class="descriptionText">
 
                 Example text <br>
-            
+
             </p>
         </div>
 </body>
